@@ -1,0 +1,1 @@
+@mainpage Seat Heating Application by 255967 Shoda Pratheep Kumar Reeddy @subpage project_main.c
