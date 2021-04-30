@@ -40,7 +40,7 @@ void uart_transmit(uint16_t digital_temp_value)
     if(digital_temp_value<= (0b11001000))
     {
         usartWriteChar('2');
-        usartWriteChar('2');
+        usartWriteChar('0');
         usartWriteChar('C');
         usartWriteChar(' ');
 
