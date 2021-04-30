@@ -19,7 +19,7 @@ void peripheral_init_ADC();
 /**
  * @brief 
  * 
- * @param[in] channel It will tell the software that for which channel the sensor is physically connected.
+ * @param[in] ch It will tell the software that for which channel the sensor is physically connected.
  * 
  * @return Return Digital value for the analog value read by the sensor. 
  */

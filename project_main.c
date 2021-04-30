@@ -9,9 +9,14 @@
  *
  */
 #include "Activity4.h"
-
+/**
+ * @brief Main function where the code execution starts
+ * 
+ * @return int Return 0 if the program completes successfully
+ */
 int main(void)
 {
+    /* Initialize Peripherals */
     peripheral_init();
     peripheral_init_ADC();
     peripheral_init_pwm();
