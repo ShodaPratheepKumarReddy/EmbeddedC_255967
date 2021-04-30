@@ -19,7 +19,7 @@ void peripheral_init()
     DDRD &=~(1<<PD0);
     DDRD &=~(1<<PD1);
     PORTD |=(1<<PD0);
-    PORTD |=(1<<PD0);
+    PORTD |=(1<<PD1);
     
 }
 /**
