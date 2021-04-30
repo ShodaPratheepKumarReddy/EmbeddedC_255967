@@ -32,13 +32,13 @@ void generate_pwm(uint16_t digital_temp_value)
         _delay_ms(200);
 
     }
-    else if(digital_temp_value>=(0b11010010) && digital_temp_value<=(0b111110100))
+    else if(digital_temp_value>=(0b11001001) && digital_temp_value<=(0b111110100))
     {
         OCR1A= 450;    /* To generate PWM wave form with 40% duty cycle */
         _delay_ms(200);
 
     }
-    else if(digital_temp_value>=(0b111111110) && digital_temp_value<=(0b1010111100))
+    else if(digital_temp_value>=(0b111110101) && digital_temp_value<=(0b1010111100))
     {
         OCR1A= 700;   /* To generate PWM wave form with 70% duty cycle */
         _delay_ms(200);

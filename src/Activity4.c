@@ -40,13 +40,13 @@ void uart_transmit(uint16_t digital_temp_value)
     if(digital_temp_value<= (0b11001000))
     {
         usartWriteChar('2');
-        usartWriteChar('0');
+        usartWriteChar('2');
         usartWriteChar('C');
         usartWriteChar(' ');
 
     }
 
-    else if(digital_temp_value>=(0b11010010) && digital_temp_value<=(0b111110100))
+    else if(digital_temp_value>=(0b11001001) && digital_temp_value<=(0b111110100))
     {
         usartWriteChar('2');
         usartWriteChar('5');
@@ -54,7 +54,7 @@ void uart_transmit(uint16_t digital_temp_value)
         usartWriteChar(' ');
 
     }
-    else if(digital_temp_value>=(0b111111110) && digital_temp_value <=(0b1010111100))
+    else if(digital_temp_value>=(0b111110101) && digital_temp_value <=(0b1010111100))
     {
         usartWriteChar('2');
         usartWriteChar('9');
