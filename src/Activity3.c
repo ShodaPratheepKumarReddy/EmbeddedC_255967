@@ -28,25 +28,25 @@ void generate_pwm(uint16_t digital_temp_value)
 {
     if(digital_temp_value<= (0b11001000))
     {
-        OCR1A= 200;     /* To generate PWM wave form with 20% duty cycle */
+        OCR1A= 205;     /* To generate PWM wave form with 20% duty cycle */
         _delay_ms(200);
 
     }
     else if(digital_temp_value>=(0b11001001) && digital_temp_value<=(0b111110100))
     {
-        OCR1A= 450;    /* To generate PWM wave form with 40% duty cycle */
+        OCR1A= 410;    /* To generate PWM wave form with 40% duty cycle */
         _delay_ms(200);
 
     }
     else if(digital_temp_value>=(0b111110101) && digital_temp_value<=(0b1010111100))
     {
-        OCR1A= 700;   /* To generate PWM wave form with 70% duty cycle */
+        OCR1A= 710;   /* To generate PWM wave form with 70% duty cycle */
         _delay_ms(200);
 
     }
     else
     {
-        OCR1A= 1000;   /* To generate PWM wave form with 95% duty cycle */
+        OCR1A= 970;   /* To generate PWM wave form with 95% duty cycle */
         _delay_ms(200);
     }
 }

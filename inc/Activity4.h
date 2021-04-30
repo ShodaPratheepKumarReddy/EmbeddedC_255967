@@ -11,6 +11,7 @@
  * 
  */
 #include "Activity3.h"
+#define Baudrate (103)
 /**
  * @brief To initialize the UART serial communication.
  * 

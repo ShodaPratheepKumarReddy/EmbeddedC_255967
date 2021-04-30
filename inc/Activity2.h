@@ -11,13 +11,14 @@
  * 
  */
 #include "Activity1.h"
+#define channel (0)
 /**
  * @brief To initialize the ADC peripherals
  * 
  */
 void peripheral_init_ADC();
 /**
- * @brief 
+ * @brief Analog to digital Conversion
  * 
  * @param[in] ch It will tell the software that for which channel the sensor is physically connected.
  * 
